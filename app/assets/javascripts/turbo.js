@@ -1459,6 +1459,7 @@ class Bardo {
   }
   replaceCurrentPermanentElementWithClone(permanentElement) {
     const clone = permanentElement.cloneNode(true);
+    console.log(clone)
     permanentElement.replaceWith(clone);
   }
   replacePlaceholderWithPermanentElement(permanentElement) {
